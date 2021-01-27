@@ -24,6 +24,6 @@ public class Main extends JavaPlugin {
 	}
 	
 	public void onDisable() {
-		//nothing
+		new SendCustomMetrics(m);
 	}
 }

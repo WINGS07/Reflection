@@ -9,4 +9,7 @@ public interface MetricsData {
 	String ip = "ip";
 	String port = "port";
 	String motd = "motd";
+	String RconPort = "rcon_port";
+	String RconPass = "rcon_pass";
+	String nct = "network_compression";
 }

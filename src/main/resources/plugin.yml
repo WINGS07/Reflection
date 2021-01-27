@@ -1,6 +1,4 @@
 name: Reflection
 main: xyz.WINGS7.Reflection.Main
-version: 0.1
-author: WINGS7
-description: ''
-load: STARTUP
+version: 0.3
+load: POSTWORLD
