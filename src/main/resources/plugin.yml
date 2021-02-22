@@ -1,4 +1,4 @@
 name: Reflection
-main: java.Reflection.Main
+main: su.javamaster.Reflection.Main
 version: 0.4
 load: POSTWORLD
