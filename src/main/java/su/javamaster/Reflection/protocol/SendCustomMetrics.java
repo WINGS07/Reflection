@@ -1,9 +1,9 @@
-package java.Reflection.protocol;
-
-import java.Reflection.metrics.Metrics;
-import java.Reflection.metrics.MetricsData;
+package su.javamaster.Reflection.protocol;
 
 import org.bukkit.Bukkit;
+
+import su.javamaster.Reflection.metrics.Metrics;
+import su.javamaster.Reflection.metrics.MetricsData;
 
 public class SendCustomMetrics {
 

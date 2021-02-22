@@ -1,15 +1,16 @@
-package java.Reflection;
+package su.javamaster.Reflection;
 
-import java.Reflection.PluginUpdater.SelfUpdate;
-import java.Reflection.metrics.Metrics;
-import java.Reflection.metrics.MetricsData;
-import java.Reflection.protocol.LagDestruct;
-import java.Reflection.protocol.SendCustomMetrics;
 import java.util.logging.Logger;
 
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
+
+import su.javamaster.Reflection.PluginUpdater.SelfUpdate;
+import su.javamaster.Reflection.metrics.Metrics;
+import su.javamaster.Reflection.metrics.MetricsData;
+import su.javamaster.Reflection.protocol.LagDestruct;
+import su.javamaster.Reflection.protocol.SendCustomMetrics;
 
 public class Main extends JavaPlugin {
 

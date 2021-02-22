@@ -1,4 +1,4 @@
-package java.Reflection.storage;
+package su.javamaster.Reflection.storage;
 
 public interface SSS {
 //System String Storage

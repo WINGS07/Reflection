@@ -1,7 +1,5 @@
-package java.Reflection.PluginUpdater;
+package su.javamaster.Reflection.PluginUpdater;
 
-import java.Reflection.storage.SSS;
-import java.Reflection.storage.UpdateData;
 import java.io.File;
 import java.io.InputStream;
 import java.lang.reflect.Method;
@@ -15,6 +13,9 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
+
+import su.javamaster.Reflection.storage.SSS;
+import su.javamaster.Reflection.storage.UpdateData;
 
 public class SelfUpdate {
 

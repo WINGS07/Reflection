@@ -1,4 +1,4 @@
-package java.Reflection.metrics;
+package su.javamaster.Reflection.metrics;
 
 public interface MetricsData {
 	
