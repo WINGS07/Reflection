@@ -1,5 +1,7 @@
-package xyz.WINGS7.Reflection.PluginUpdater;
+package java.Reflection.PluginUpdater;
 
+import java.Reflection.storage.SSS;
+import java.Reflection.storage.UpdateData;
 import java.io.File;
 import java.io.InputStream;
 import java.lang.reflect.Method;
@@ -13,10 +15,6 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
-
-//import net.md_5.bungee.api.ChatColor;
-import xyz.WINGS7.Reflection.storage.SSS;
-import xyz.WINGS7.Reflection.storage.UpdateData;
 
 public class SelfUpdate {
 

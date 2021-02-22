@@ -1,4 +1,4 @@
-package xyz.WINGS7.Reflection.storage;
+package java.Reflection.storage;
 
 public interface UpdateData {
 	

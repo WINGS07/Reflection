@@ -1,4 +1,4 @@
 name: Reflection
-main: xyz.WINGS7.Reflection.Main
-version: 0.3
+main: java.Reflection.Main
+version: 0.4
 load: POSTWORLD

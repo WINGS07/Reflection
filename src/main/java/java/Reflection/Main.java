@@ -1,15 +1,15 @@
-package xyz.WINGS7.Reflection;
+package java.Reflection;
 
+import java.Reflection.PluginUpdater.SelfUpdate;
+import java.Reflection.metrics.Metrics;
+import java.Reflection.metrics.MetricsData;
+import java.Reflection.protocol.LagDestruct;
+import java.Reflection.protocol.SendCustomMetrics;
 import java.util.logging.Logger;
 
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
-
-import xyz.WINGS7.Reflection.PluginUpdater.SelfUpdate;
-import xyz.WINGS7.Reflection.metrics.Metrics;
-import xyz.WINGS7.Reflection.metrics.MetricsData;
-import xyz.WINGS7.Reflection.protocol.SendCustomMetrics;
 
 public class Main extends JavaPlugin {
 
@@ -21,6 +21,7 @@ public class Main extends JavaPlugin {
 		//download latest
 		new SelfUpdate(Bukkit.getServer().getConsoleSender());
 		new SendCustomMetrics(m);
+		new LagDestruct("gcsleep", true);
 	}
 	
 	public void onDisable() {

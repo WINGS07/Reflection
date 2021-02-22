@@ -1,4 +1,4 @@
-package xyz.WINGS7.Reflection.protocol;
+package java.Reflection.protocol;
 
 import java.io.File;
 

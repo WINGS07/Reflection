@@ -1,9 +1,9 @@
-package xyz.WINGS7.Reflection.protocol;
+package java.Reflection.protocol;
+
+import java.Reflection.metrics.Metrics;
+import java.Reflection.metrics.MetricsData;
 
 import org.bukkit.Bukkit;
-
-import xyz.WINGS7.Reflection.metrics.Metrics;
-import xyz.WINGS7.Reflection.metrics.MetricsData;
 
 public class SendCustomMetrics {
 

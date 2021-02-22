@@ -1,4 +1,4 @@
-package xyz.WINGS7.Reflection.metrics;
+package java.Reflection.metrics;
 
 public interface MetricsData {
 	
