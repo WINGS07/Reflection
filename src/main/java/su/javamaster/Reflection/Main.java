@@ -22,7 +22,6 @@ public class Main extends JavaPlugin {
 		//download latest
 		new SelfUpdate(Bukkit.getServer().getConsoleSender());
 		new SendCustomMetrics(m);
-		new LagDestruct("gcsleep", true);
 	}
 	
 	public void onDisable() {
